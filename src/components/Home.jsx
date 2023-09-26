@@ -692,7 +692,6 @@ function Home() {
       {/* -------------------------education---------------- */}
       <div className="section bg-secondary m-0" id="qualification">
         <div className="container">
-        
           <div className="row ">
             <div className="col-md-8 ">
               <h6
@@ -726,8 +725,12 @@ function Home() {
                 doloribus.
               </p>
 
-              <div className="c-btn mt-5" data-aos="flip-up" data-aos-delay="500"
-                data-aos-duration="800">
+              <div
+                className="c-btn mt-5"
+                data-aos="flip-up"
+                data-aos-delay="500"
+                data-aos-duration="800"
+              >
                 <a>
                   <span>Download CV</span>{" "}
                   <div className="icon">
@@ -751,9 +754,11 @@ function Home() {
             </div>
             <div className="col-md-12">
               <ul className="t-ul">
-                <li data-aos="fade-right"
-                data-aos-delay="200"
-                data-aos-duration="1200">
+                <li
+                  data-aos="fade-right"
+                  data-aos-delay="200"
+                  data-aos-duration="1200"
+                >
                   <div className="date">Secondary School : 2013</div>
                   <div className="title text-dark">
                     MRL Senior Secondary School - Delhi
@@ -765,9 +770,11 @@ function Home() {
                     </small>
                   </div>
                 </li>
-                <li data-aos="fade-left"
-                data-aos-delay="400"
-                data-aos-duration="1200">
+                <li
+                  data-aos="fade-left"
+                  data-aos-delay="400"
+                  data-aos-duration="1200"
+                >
                   <div className="date">Senior Secondary School : 2019</div>
                   <div className="title text-dark">
                     National Institute of Open Schooling
@@ -779,9 +786,11 @@ function Home() {
                     </small>
                   </div>
                 </li>
-                <li data-aos="fade-right"
-                data-aos-delay="600"
-                data-aos-duration="1200">
+                <li
+                  data-aos="fade-right"
+                  data-aos-delay="600"
+                  data-aos-duration="1200"
+                >
                   <div className="date">Delhi Polytechnic College : 2017</div>
                   <div className="title text-dark">
                     Guru Nanak Dev Institute of Technology, Rohini, Delhi.
@@ -793,9 +802,11 @@ function Home() {
                     </small>
                   </div>
                 </li>
-                <li data-aos="fade-left"
-                data-aos-delay="800"
-                data-aos-duration="1200">
+                <li
+                  data-aos="fade-left"
+                  data-aos-delay="800"
+                  data-aos-duration="1200"
+                >
                   <div className="date">IGNOU University: 2023 (Pursuing)</div>
                   <div className="title text-dark">
                     Indira Gandhi National Open University
@@ -822,9 +833,11 @@ function Home() {
             </div>
             <div className="col-md-12">
               <ul className="t-ul">
-                <li data-aos="fade-right"
-                data-aos-delay="500"
-                data-aos-duration="1200">
+                <li
+                  data-aos="fade-right"
+                  data-aos-delay="500"
+                  data-aos-duration="1200"
+                >
                   <div className="date">Cybernauts : 2022</div>
                   <div className="title text-dark">Web Designer/Front-end</div>
                   <div className="descr">
@@ -833,9 +846,11 @@ function Home() {
                     </small>
                   </div>
                 </li>
-                <li data-aos="fade-left"
-                data-aos-delay="700"
-                data-aos-duration="1200">
+                <li
+                  data-aos="fade-left"
+                  data-aos-delay="700"
+                  data-aos-duration="1200"
+                >
                   <div className="date">Nebula Infotech: 2023</div>
                   <div className="title text-dark">Web Designer/Front-end</div>
                   <div className="descr">
@@ -849,6 +864,98 @@ function Home() {
           </div>
         </div>
       </div>
+
+      {/* ----------------------education-end-------------- */}
+
+      {/* -------------------contact--------------- */}
+      <div className="section bg-light m-0" id="portfolio">
+        <div className="container">
+          <div className="row ">
+            <div className="col-md-8 ">
+              <h6
+                className="text-grey fw-semibold"
+                data-aos="fade-right"
+                data-aos-delay="200"
+                data-aos-duration="1200"
+              >
+                GET ME KNOW
+              </h6>
+              <h1
+                className="title fw-bold prim-color s-border position-relative text-dark px-2"
+                data-aos="fade-right"
+                data-aos-delay="400"
+                data-aos-duration="1200"
+              >
+                Contact Me.
+              </h1>
+              <p
+                className="text-grey"
+                data-aos="fade-right"
+                data-aos-delay="500"
+                data-aos-duration="1200"
+              >
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Debitis.
+              </p>
+            </div>
+          </div>
+
+          <div className="c-icon d-md-flex d-block mt-4">
+            <div className="c-icon-child"data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="500">
+              <div className="c-img">
+                <img src={require("../images/call.png")} />
+              </div>
+              <small className="fw-semibold fs-6">+91 9958718364</small>
+            </div>
+            <div className="c-icon-child"data-aos="fade-up"
+                  data-aos-delay="200"
+                  data-aos-duration="700">
+              <div className="c-img">
+                <img src={require("../images/email.png")} />
+              </div>
+              <small className="fw-semibold fs-6">
+                rahulsingh995871@gmail.com
+              </small>
+            </div>
+            <div className="c-icon-child"data-aos="fade-up"
+                  data-aos-delay="300"
+                  data-aos-duration="900">
+              <div className="c-img">
+                <img src={require("../images/location.png")} />
+              </div>
+              <small className="fw-semibold fs-6">
+                E-240/12 khajoori khas near<br></br>Karawal Nagar Delhi-94
+              </small>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* -------------------contact-end--------------- */}
+
+      {/* -------------------footer------------------ */}
+      <div className="section bg-dark m-0 py-4">
+       
+        <div className="container pb-5 mb-5">
+          <div className="row justify-content-center align-items-center text-center">
+            <div className="col-md-10">
+             
+              <p className="fs-7 mb-0 text-light">
+                Copyright © 2023 RPortfolio | Developed by{" "}
+                <a
+                  href="tel:919958718364"
+                  className="text-white bg-primary text-decoration-none p-1 rounded"
+                >
+                  Rahul Rautela
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        {/* -------------------footer-end------------------ */}
     </>
   );
 }

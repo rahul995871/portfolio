@@ -70,8 +70,9 @@ function AsNavFor() {
                 <span className="text-dark">Technology: </span> <span className="text-dark fw-semibold fs-7">Html, Css, Bootstrap, Javascript</span>
               </div>
               <div className="v-btn mt-2 mx-auto">
-              <a >VISIT</a>
+              <a><span>visit</span> <div className="icon"><i className="fa-solid fa-arrow-right-long"></i></div> </a>
               </div>
+
               
             </div>
             </div>
@@ -85,7 +86,7 @@ function AsNavFor() {
                 <span className="text-dark">Technology: </span> <span className="text-dark fw-semibold fs-7">ReactJs, Html, Css, Bootstrap,</span>
               </div>
               <div className="v-btn mt-2 mx-auto">
-              <a >VISIT</a>
+              <a><span>visit</span> <div className="icon"><i className="fa-solid fa-arrow-right-long"></i></div> </a>
               </div>
             </div>
             </div>
@@ -98,7 +99,7 @@ function AsNavFor() {
                 <span className="text-dark">Technology: </span> <span className="text-dark fw-semibold fs-7">Html, Css, Bootstrap, Javascript</span>
               </div>
               <div className="v-btn mt-2 mx-auto">
-              <a >VISIT</a>
+              <a><span>visit</span> <div className="icon"><i className="fa-solid fa-arrow-right-long"></i></div> </a>
               </div>
             </div>
             </div>
@@ -111,7 +112,7 @@ function AsNavFor() {
                 <span className="text-dark">Technology: </span> <span className="text-dark fw-semibold fs-7">Html, Css, Bootstrap, Javascript, Jquery</span>
               </div>
               <div className="v-btn mt-2 mx-auto">
-              <a >VISIT</a>
+              <a><span>visit</span> <div className="icon"><i className="fa-solid fa-arrow-right-long"></i></div> </a>
               </div>
             </div>
             </div>
@@ -124,7 +125,7 @@ function AsNavFor() {
                 <span className="text-dark">Technology: </span> <span className="text-dark fw-semibold fs-7">Html, Css, Bootstrap, Javascript</span>
               </div>
               <div className="v-btn mt-2 mx-auto">
-              <a >VISIT</a>
+              <a><span>visit</span> <div className="icon"><i className="fa-solid fa-arrow-right-long"></i></div> </a>
               </div>
             </div>
             </div>
@@ -137,7 +138,7 @@ function AsNavFor() {
                 <span className="text-dark">Technology: </span> <span className="text-dark fw-semibold fs-7">Html, Css, Bootstrap, Javascript, Jquery</span>
               </div>
               <div className="v-btn mt-2 mx-auto">
-              <a >VISIT</a>
+              <a><span>visit</span> <div className="icon"><i className="fa-solid fa-arrow-right-long"></i></div> </a>
               </div>
             </div>
             </div>
@@ -214,6 +215,8 @@ function Home() {
                 repeat={Infinity}
               />
 
+             
+
             <div className="social-icon mt-4">
               
             <div className="social-icon-child animate__pulse animate__animated animate__infinite">
@@ -247,6 +250,10 @@ function Home() {
                     
                 </div>
             </div>
+
+            <div className="c-btn mt-5">
+                <a><span>Download CV</span> <div className="icon"><i className="fa-solid fa-arrow-right-long"></i></div> </a>
+              </div>
 
             </div>
 

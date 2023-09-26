@@ -13,13 +13,12 @@ import {
 import { HashLink } from "react-router-hash-link";
 import { useState, useRef, useEffect } from "react";
 
-
 function AsNavFor() {
   const [nav1, setNav1] = useState(null);
   const [nav2, setNav2] = useState(null);
   const slider1Ref = useRef(null);
   const slider2Ref = useRef(null);
-  const settings={
+  const settings = {
     responsive: [
       {
         breakpoint: 1024,
@@ -27,26 +26,26 @@ function AsNavFor() {
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: true
-        }
+          dots: true,
+        },
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          initialSlide: 2
-        }
+          initialSlide: 2,
+        },
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
-  }
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
 
   useEffect(() => {
     setNav1(slider1Ref.current);
@@ -55,146 +54,189 @@ function AsNavFor() {
 
   return (
     <div className="">
-
-<div className="section m-0">
-<div className="row position-relative align-items-center justify-content-between py-5  pt-md-5 pt-0"data-aos="zoom-in"data-aos-delay="50"
-    data-aos-duration="1000">
-            <div className="portfolio-blob "></div>
-            <Slider className="col-md-3 text-center py-4" asNavFor={nav2} ref={slider1Ref}>
-        
-      <div className="py-md-3 py-0 bg-light">
-            <div className="position-relative bg-light ">
-         
-              <h4 className=" fw-bold prim-color">Pramerica.</h4>
-              <div className="text-grey">
-                <span className="text-dark">Technology: </span> <span className="text-dark fw-semibold fs-7">Html, Css, Bootstrap, Javascript</span>
-              </div>
-              <div className="v-btn mt-2 mx-auto">
-              <a><span>visit</span> <div className="icon"><i className="fa-solid fa-arrow-right-long"></i></div> </a>
-              </div>
-
-              
-            </div>
-            </div>
-
-
+      <div className="section m-0">
+        <div
+          className="row position-relative align-items-center justify-content-between py-5  pt-md-5 pt-0"
+          data-aos="zoom-in"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          <div className="portfolio-blob "></div>
+          <Slider
+            className="col-md-3 text-center py-4"
+            asNavFor={nav2}
+            ref={slider1Ref}
+          >
             <div className="py-md-3 py-0 bg-light">
-            <div className="position-relative bg-light ">
-         
-              <h4 className=" fw-bold prim-color">BeatsMyTrip.</h4>
-             <div className="text-grey">
-                <span className="text-dark">Technology: </span> <span className="text-dark fw-semibold fs-7">ReactJs, Html, Css, Bootstrap,</span>
+              <div className="position-relative bg-light ">
+                <h4 className=" fw-bold prim-color">Pramerica.</h4>
+                <div className="text-grey">
+                  <span className="text-dark">Technology: </span>{" "}
+                  <span className="text-dark fw-semibold fs-7">
+                    Html, Css, Bootstrap, Javascript
+                  </span>
+                </div>
+                <div className="v-btn mt-2 mx-auto">
+                  <a>
+                    <span>visit</span>{" "}
+                    <div className="icon">
+                      <i className="fa-solid fa-arrow-right-long"></i>
+                    </div>{" "}
+                  </a>
+                </div>
               </div>
-              <div className="v-btn mt-2 mx-auto">
-              <a><span>visit</span> <div className="icon"><i className="fa-solid fa-arrow-right-long"></i></div> </a>
-              </div>
-            </div>
             </div>
 
             <div className="py-md-3 py-0 bg-light">
-            <div className="position-relative bg-light ">
-         
-              <h4 className=" fw-bold prim-color">Nazia.</h4>
-             <div className="text-grey">
-                <span className="text-dark">Technology: </span> <span className="text-dark fw-semibold fs-7">Html, Css, Bootstrap, Javascript</span>
+              <div className="position-relative bg-light ">
+                <h4 className=" fw-bold prim-color">BeatsMyTrip.</h4>
+                <div className="text-grey">
+                  <span className="text-dark">Technology: </span>{" "}
+                  <span className="text-dark fw-semibold fs-7">
+                    ReactJs, Html, Css, Bootstrap,
+                  </span>
+                </div>
+                <div className="v-btn mt-2 mx-auto">
+                  <a>
+                    <span>visit</span>{" "}
+                    <div className="icon">
+                      <i className="fa-solid fa-arrow-right-long"></i>
+                    </div>{" "}
+                  </a>
+                </div>
               </div>
-              <div className="v-btn mt-2 mx-auto">
-              <a><span>visit</span> <div className="icon"><i className="fa-solid fa-arrow-right-long"></i></div> </a>
-              </div>
-            </div>
             </div>
 
             <div className="py-md-3 py-0 bg-light">
-            <div className="position-relative bg-light ">
-         
-              <h4 className=" fw-bold prim-color">MindGrove.</h4>
-             <div className="text-grey">
-                <span className="text-dark">Technology: </span> <span className="text-dark fw-semibold fs-7">Html, Css, Bootstrap, Javascript, Jquery</span>
+              <div className="position-relative bg-light ">
+                <h4 className=" fw-bold prim-color">Nazia.</h4>
+                <div className="text-grey">
+                  <span className="text-dark">Technology: </span>{" "}
+                  <span className="text-dark fw-semibold fs-7">
+                    Html, Css, Bootstrap, Javascript
+                  </span>
+                </div>
+                <div className="v-btn mt-2 mx-auto">
+                  <a>
+                    <span>visit</span>{" "}
+                    <div className="icon">
+                      <i className="fa-solid fa-arrow-right-long"></i>
+                    </div>{" "}
+                  </a>
+                </div>
               </div>
-              <div className="v-btn mt-2 mx-auto">
-              <a><span>visit</span> <div className="icon"><i className="fa-solid fa-arrow-right-long"></i></div> </a>
-              </div>
-            </div>
             </div>
 
             <div className="py-md-3 py-0 bg-light">
-            <div className="position-relative bg-light ">
-         
-              <h4 className=" fw-bold prim-color">BaronStar.</h4>
-             <div className="text-grey">
-                <span className="text-dark">Technology: </span> <span className="text-dark fw-semibold fs-7">Html, Css, Bootstrap, Javascript</span>
+              <div className="position-relative bg-light ">
+                <h4 className=" fw-bold prim-color">MindGrove.</h4>
+                <div className="text-grey">
+                  <span className="text-dark">Technology: </span>{" "}
+                  <span className="text-dark fw-semibold fs-7">
+                    Html, Css, Bootstrap, Javascript, Jquery
+                  </span>
+                </div>
+                <div className="v-btn mt-2 mx-auto">
+                  <a>
+                    <span>visit</span>{" "}
+                    <div className="icon">
+                      <i className="fa-solid fa-arrow-right-long"></i>
+                    </div>{" "}
+                  </a>
+                </div>
               </div>
-              <div className="v-btn mt-2 mx-auto">
-              <a><span>visit</span> <div className="icon"><i className="fa-solid fa-arrow-right-long"></i></div> </a>
-              </div>
-            </div>
             </div>
 
             <div className="py-md-3 py-0 bg-light">
-            <div className="position-relative bg-light ">
-         
-              <h4 className=" fw-bold prim-color">Alavaya.</h4>
-             <div className="text-grey">
-                <span className="text-dark">Technology: </span> <span className="text-dark fw-semibold fs-7">Html, Css, Bootstrap, Javascript, Jquery</span>
-              </div>
-              <div className="v-btn mt-2 mx-auto">
-              <a><span>visit</span> <div className="icon"><i className="fa-solid fa-arrow-right-long"></i></div> </a>
+              <div className="position-relative bg-light ">
+                <h4 className=" fw-bold prim-color">BaronStar.</h4>
+                <div className="text-grey">
+                  <span className="text-dark">Technology: </span>{" "}
+                  <span className="text-dark fw-semibold fs-7">
+                    Html, Css, Bootstrap, Javascript
+                  </span>
+                </div>
+                <div className="v-btn mt-2 mx-auto">
+                  <a>
+                    <span>visit</span>{" "}
+                    <div className="icon">
+                      <i className="fa-solid fa-arrow-right-long"></i>
+                    </div>{" "}
+                  </a>
+                </div>
               </div>
             </div>
+
+            <div className="py-md-3 py-0 bg-light">
+              <div className="position-relative bg-light ">
+                <h4 className=" fw-bold prim-color">Alavaya.</h4>
+                <div className="text-grey">
+                  <span className="text-dark">Technology: </span>{" "}
+                  <span className="text-dark fw-semibold fs-7">
+                    Html, Css, Bootstrap, Javascript, Jquery
+                  </span>
+                </div>
+                <div className="v-btn mt-2 mx-auto">
+                  <a>
+                    <span>visit</span>{" "}
+                    <div className="icon">
+                      <i className="fa-solid fa-arrow-right-long"></i>
+                    </div>{" "}
+                  </a>
+                </div>
+              </div>
+            </div>
+          </Slider>
+
+          <Slider
+            {...settings}
+            asNavFor={nav1}
+            ref={slider2Ref}
+            slidesToShow={2}
+            swipeToSlide={true}
+            focusOnSelect={true}
+            autoplay={true}
+            centerMode={true} // Enable center mode
+            centerPadding="0px"
+            className="center center-img col-md-9"
+          >
+            <div>
+              <img src={require("../images/port_1.jpg")} />
+            </div>
+            <div>
+              <img src={require("../images/port_2.jpg")} />
             </div>
 
-
-            
-      </Slider>
-
-      <Slider
-      {...settings}
-        asNavFor={nav1}
-        ref={slider2Ref}
-        slidesToShow={2}
-        swipeToSlide={true}
-        focusOnSelect={true}
-        autoplay={true}
-        centerMode={true} // Enable center mode
-        centerPadding="0px" 
-        className="center center-img col-md-9"
-        
-      >
-         <div><img src={require('../images/port_1.jpg')}/></div>
-         <div><img src={require('../images/port_2.jpg')}/></div>
-        
-         <div><img src={require('../images/port_3.jpg')}/></div>
-         <div><img src={require('../images/port_4.jpg')}/></div>
-         <div><img src={require('../images/port_5.jpg')}/></div>
-         <div><img src={require('../images/port_6.jpg')}/></div>
-      </Slider>
-
-      
-          </div>
-</div>
-
-      
-      
-    
-     
+            <div>
+              <img src={require("../images/port_3.jpg")} />
+            </div>
+            <div>
+              <img src={require("../images/port_4.jpg")} />
+            </div>
+            <div>
+              <img src={require("../images/port_5.jpg")} />
+            </div>
+            <div>
+              <img src={require("../images/port_6.jpg")} />
+            </div>
+          </Slider>
+        </div>
+      </div>
     </div>
   );
 }
 
 function Home() {
-
-
-
   return (
     <>
-    
-
       <div className="section m-0 p-0 home-bg">
         <div className="container">
           <div className="row align-items-center justify-content-center">
             <div className="col-md-7 py-5 ">
               {/* <p className='prim-color fs-4 mb-2'>Hello, I'm</p> */}
-              <p className="text-light title s-border position-relative px-2">RAHUL RAUTELA</p>
+              <p className="text-light title s-border position-relative px-2">
+                RAHUL RAUTELA
+              </p>
               <span className="text-light fs-5">I'm </span>
 
               <TypeAnimation
@@ -215,50 +257,50 @@ function Home() {
                 repeat={Infinity}
               />
 
-             
-
-            <div className="social-icon mt-4">
-              
-            <div className="social-icon-child animate__pulse animate__animated animate__infinite">
-                    <div className="social-icon-img">
-                    <img src={require('../images/fb.png')}/>
-                    </div>
-                    
+              <div className="social-icon mt-4">
+                <div className="social-icon-child animate__pulse animate__animated animate__infinite">
+                  <div className="social-icon-img">
+                    <img src={require("../images/fb.png")} />
+                  </div>
                 </div>
                 <div className="social-icon-child animate__pulse animate__animated animate__infinite">
-                    <div className="social-icon-img">
-                    <img src={require('../images/instagram.png')}/>
-                    </div>
-                    
+                  <div className="social-icon-img">
+                    <img src={require("../images/instagram.png")} />
+                  </div>
                 </div>
                 <div className="social-icon-child animate__pulse animate__animated animate__infinite">
-                    <div className="social-icon-img">
-                    <img src={require('../images/linkedin.png')}/>
-                    </div>
-                    
+                  <div className="social-icon-img">
+                    <img src={require("../images/linkedin.png")} />
+                  </div>
                 </div>
                 <div className="social-icon-child animate__pulse animate__animated animate__infinite">
-                    <div className="social-icon-img">
-                    <img src={require('../images/twitter.png')}/>
-                    </div>
-                    
+                  <div className="social-icon-img">
+                    <img src={require("../images/twitter.png")} />
+                  </div>
                 </div>
                 <div className="social-icon-child animate__pulse animate__animated animate__infinite">
-                    <div className="social-icon-img">
-                    <img src={require('../images/whatsapp.png')}/>
-                    </div>
-                    
+                  <div className="social-icon-img">
+                    <img src={require("../images/whatsapp.png")} />
+                  </div>
                 </div>
-            </div>
-
-            <div className="c-btn mt-5">
-                <a><span>Download CV</span> <div className="icon"><i className="fa-solid fa-arrow-right-long"></i></div> </a>
               </div>
 
+              <div className="c-btn mt-5">
+                <a>
+                  <span>Download CV</span>{" "}
+                  <div className="icon">
+                    <i className="fa-solid fa-arrow-right-long"></i>
+                  </div>{" "}
+                </a>
+              </div>
             </div>
 
-            <div className="col-md-5 py-5 	  home-blob position-relative text-center" data-aos="zoom-in"data-aos-delay="50"
-    data-aos-duration="1200">
+            <div
+              className="col-md-5 py-5 	  home-blob position-relative text-center"
+              data-aos="zoom-in"
+              data-aos-delay="50"
+              data-aos-duration="1200"
+            >
               <img
                 className="position-relative"
                 src={require("../images/me3.png")}
@@ -278,13 +320,13 @@ function Home() {
                 <img src={require("../images/about.png")} />
               </div>
             </HashLink>
-            <HashLink to="/#skills">
+            <HashLink to="/#qualification">
               <div>
                 <img src={require("../images/resume.png")} />
               </div>
             </HashLink>
 
-            <HashLink to="/#skills">
+            <HashLink to="/#portfolio">
               <div>
                 <img src={require("../images/port.png")} />
               </div>
@@ -304,15 +346,28 @@ function Home() {
         <div className="container">
           <div className="row ">
             <div className="col-md-8 ">
-              <h6 className="text-grey fw-semibold" data-aos="fade-right"
-     data-aos-delay="200"
-    data-aos-duration="1200">GET ME KNOW</h6>
-              <h1 className="title fw-bold prim-color s-border position-relative text-dark px-2" data-aos="fade-right"
-     data-aos-delay="400"
-    data-aos-duration="1200">About Me.</h1>
-              <p className="text-grey"data-aos="fade-right"
-     data-aos-delay="500"
-    data-aos-duration="1200">
+              <h6
+                className="text-grey fw-semibold"
+                data-aos="fade-right"
+                data-aos-delay="200"
+                data-aos-duration="1200"
+              >
+                GET ME KNOW
+              </h6>
+              <h1
+                className="title fw-bold prim-color s-border position-relative text-dark px-2"
+                data-aos="fade-right"
+                data-aos-delay="400"
+                data-aos-duration="1200"
+              >
+                About Me.
+              </h1>
+              <p
+                className="text-grey"
+                data-aos="fade-right"
+                data-aos-delay="500"
+                data-aos-duration="1200"
+              >
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Debitis sapiente ipsum dolorum dicta eaque cumque inventore
                 molestias, beatae ea quaerat alias accusamus voluptas autem!
@@ -327,9 +382,17 @@ function Home() {
           <div className="row mt-5">
             <div className="col-md-12">
               <div className="about-card">
-                <div className="about-card-child"data-aos="fade-up" data-aos-delay="100" data-aos-duration="500">
+                <div
+                  className="about-card-child"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  data-aos-duration="500"
+                >
                   <div className="about-card-img mb-1">
-                    <img src={require("../images/web-design.png")} className="animate__pulse animate__animated animate__infinite" />
+                    <img
+                      src={require("../images/web-design.png")}
+                      className="animate__pulse animate__animated animate__infinite"
+                    />
                   </div>
                   <div>
                     <h4 className="fs-5 lh-sm">Web Design</h4>
@@ -338,9 +401,17 @@ function Home() {
 </small> */}
                   </div>
                 </div>
-                <div className="about-card-child"data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
+                <div
+                  className="about-card-child"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                  data-aos-duration="800"
+                >
                   <div className="about-card-img mb-1">
-                    <img src={require("../images/adobe-photoshop.png")} className="animate__pulse animate__animated animate__infinite"/>
+                    <img
+                      src={require("../images/adobe-photoshop.png")}
+                      className="animate__pulse animate__animated animate__infinite"
+                    />
                   </div>
                   <div>
                     <h5 className="fs-5 lh-sm">PhotoShop</h5>
@@ -350,9 +421,17 @@ function Home() {
                   </div>
                 </div>
 
-                <div className="about-card-child"data-aos="fade-up" data-aos-delay="300" data-aos-duration="1200">
+                <div
+                  className="about-card-child"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                  data-aos-duration="1200"
+                >
                   <div className="about-card-img mb-1">
-                    <img src={require("../images/framework.png")} className="animate__pulse animate__animated animate__infinite"/>
+                    <img
+                      src={require("../images/framework.png")}
+                      className="animate__pulse animate__animated animate__infinite"
+                    />
                   </div>
                   <div>
                     <h5 className="fs-5 lh-sm">React/Bootstrap</h5>
@@ -361,9 +440,17 @@ function Home() {
 </small> */}
                   </div>
                 </div>
-                <div className="about-card-child"data-aos="fade-up" data-aos-delay="500" data-aos-duration="1500">
+                <div
+                  className="about-card-child"
+                  data-aos="fade-up"
+                  data-aos-delay="500"
+                  data-aos-duration="1500"
+                >
                   <div className="about-card-img mb-1">
-                    <img src={require("../images/responsive.png")} className="animate__pulse animate__animated animate__infinite"/>
+                    <img
+                      src={require("../images/responsive.png")}
+                      className="animate__pulse animate__animated animate__infinite"
+                    />
                   </div>
                   <div>
                     <h5 className="fs-5 lh-sm">
@@ -387,15 +474,28 @@ function Home() {
         <div className="container">
           <div className="row ">
             <div className="col-md-8 ">
-              <h6 className="text-grey fw-semibold"data-aos="fade-right"
-     data-aos-delay="200"
-    data-aos-duration="1200">Explore my skills</h6>
-              <h1 className="title fw-bold prim-color s-border position-relative px-2"data-aos="fade-right"
-     data-aos-delay="400"
-    data-aos-duration="1200">Skills.</h1>
-              <p className="text-light"data-aos="fade-right"
-     data-aos-delay="500"
-    data-aos-duration="1200">
+              <h6
+                className="text-grey fw-semibold"
+                data-aos="fade-right"
+                data-aos-delay="200"
+                data-aos-duration="1200"
+              >
+                Explore my skills
+              </h6>
+              <h1
+                className="title fw-bold prim-color s-border position-relative px-2"
+                data-aos="fade-right"
+                data-aos-delay="400"
+                data-aos-duration="1200"
+              >
+                Skills.
+              </h1>
+              <p
+                className="text-light"
+                data-aos="fade-right"
+                data-aos-delay="500"
+                data-aos-duration="1200"
+              >
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Debitis sapiente ipsum dolorum dicta eaque cumque inventore
                 molestias, beatae ea quaerat alias accusamus voluptas autem!
@@ -408,9 +508,12 @@ function Home() {
           </div>
           <div className="row justify-content-between align-items-center">
             <div className="col-md-6 mb-md-0 mb-5 mb-pb-0 pb-5">
-              <div className="mb-4"data-aos="fade-up"
-     data-aos-delay="200"
-    data-aos-duration="600">
+              <div
+                className="mb-4"
+                data-aos="fade-up"
+                data-aos-delay="200"
+                data-aos-duration="600"
+              >
                 <div className="d-flex justify-content-between mb-2">
                   {" "}
                   <small className="text-light fw-semibold">HTML</small>{" "}
@@ -428,9 +531,12 @@ function Home() {
                 </div>
               </div>
 
-              <div className="mb-4"data-aos="fade-up"
-     data-aos-delay="400"
-    data-aos-duration="600">
+              <div
+                className="mb-4"
+                data-aos="fade-up"
+                data-aos-delay="400"
+                data-aos-duration="600"
+              >
                 <div className="d-flex justify-content-between mb-2 ">
                   {" "}
                   <small className="text-light fw-semibold">CSS</small>{" "}
@@ -448,9 +554,12 @@ function Home() {
                 </div>
               </div>
 
-              <div className="mb-4"data-aos="fade-up"
-     data-aos-delay="600"
-    data-aos-duration="600">
+              <div
+                className="mb-4"
+                data-aos="fade-up"
+                data-aos-delay="600"
+                data-aos-duration="600"
+              >
                 <div className="d-flex justify-content-between mb-2 ">
                   {" "}
                   <small className="text-light fw-semibold">
@@ -470,9 +579,12 @@ function Home() {
                 </div>
               </div>
 
-              <div className="mb-4" data-aos="fade-up"
-     data-aos-delay="800"
-    data-aos-duration="600">
+              <div
+                className="mb-4"
+                data-aos="fade-up"
+                data-aos-delay="800"
+                data-aos-duration="600"
+              >
                 <div className="d-flex justify-content-between mb-2 ">
                   {" "}
                   <small className="text-light fw-semibold">
@@ -492,9 +604,12 @@ function Home() {
                 </div>
               </div>
 
-              <div className=""data-aos="fade-up"
-     data-aos-delay="800"
-    data-aos-duration="600">
+              <div
+                className=""
+                data-aos="fade-up"
+                data-aos-delay="800"
+                data-aos-duration="600"
+              >
                 <div className="d-flex justify-content-between mb-2 ">
                   {" "}
                   <small className="text-light fw-semibold">
@@ -513,13 +628,14 @@ function Home() {
                   <div className="progress-bar" style={{ width: "70%" }}></div>
                 </div>
               </div>
-
-            
             </div>
 
-            <div className="col-md-5"data-aos="fade-left"
-     data-aos-delay="500"
-    data-aos-duration="500">
+            <div
+              className="col-md-5"
+              data-aos="fade-left"
+              data-aos-delay="500"
+              data-aos-duration="500"
+            >
               <img
                 className="img-fluid"
                 src={require("../images/skills.svg")}
@@ -530,21 +646,33 @@ function Home() {
       </div>
       {/* -------------------skills-end---------------- */}
 
-
       {/* -------------------projects--------------- */}
-      <div className="section bg-light m-0" id="about">
+      <div className="section bg-light m-0" id="portfolio">
         <div className="container">
           <div className="row ">
             <div className="col-md-8 ">
-              <h6 className="text-grey fw-semibold"data-aos="fade-right"
-     data-aos-delay="200"
-    data-aos-duration="1200">GET ME KNOW</h6>
-              <h1 className="title fw-bold prim-color s-border position-relative text-dark px-2"data-aos="fade-right"
-     data-aos-delay="400"
-    data-aos-duration="1200">Projects.</h1>
-              <p className="text-grey"data-aos="fade-right"
-     data-aos-delay="500"
-    data-aos-duration="1200">
+              <h6
+                className="text-grey fw-semibold"
+                data-aos="fade-right"
+                data-aos-delay="200"
+                data-aos-duration="1200"
+              >
+                GET ME KNOW
+              </h6>
+              <h1
+                className="title fw-bold prim-color s-border position-relative text-dark px-2"
+                data-aos="fade-right"
+                data-aos-delay="400"
+                data-aos-duration="1200"
+              >
+                Projects.
+              </h1>
+              <p
+                className="text-grey"
+                data-aos="fade-right"
+                data-aos-delay="500"
+                data-aos-duration="1200"
+              >
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Debitis sapiente ipsum dolorum dicta eaque cumque inventore
                 molestias, beatae ea quaerat alias accusamus voluptas autem!
@@ -557,12 +685,159 @@ function Home() {
           </div>
 
           {AsNavFor()}
-         
         </div>
       </div>
-       {/* -------------------projects-end--------------- */}
+      {/* -------------------projects-end--------------- */}
 
-      
+      {/* -------------------------education---------------- */}
+      <div className="section bg-secondary m-0" id="qualification">
+        <div className="container">
+          <div className="row ">
+            <div className="col-md-8 ">
+              <h6
+                className="text-grey fw-semibold"
+                data-aos="fade-right"
+                data-aos-delay="200"
+                data-aos-duration="1200"
+              >
+                Explore my skills
+              </h6>
+              <h1
+                className="title fw-bold prim-color s-border position-relative px-2 "
+                data-aos="fade-right"
+                data-aos-delay="400"
+                data-aos-duration="1200"
+              >
+                Qualification & Experience.
+              </h1>
+              <p
+                className="text-light"
+                data-aos="fade-right"
+                data-aos-delay="500"
+                data-aos-duration="1200"
+              >
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Debitis sapiente ipsum dolorum dicta eaque cumque inventore
+                molestias, beatae ea quaerat alias accusamus voluptas autem!
+                Alias odit voluptates in totam vitae dignissimos minus eaque
+                culpa unde tempore dolore aperiam obcaecati voluptatum aliquam
+                corrupti, suscipit accusamus! Odit unde veniam dolorum ipsum
+                doloribus.
+              </p>
+            </div>
+          </div>
+
+          <div className="row justify-content-center">
+            <div className="text-center">
+              <h1
+                className=" fw-bold prim-color s-border position-relative my-5 d-inline-block px-2 fs-3"
+                data-aos="fade-right"
+                data-aos-delay="400"
+                data-aos-duration="1200"
+              >
+                Qualification.
+              </h1>
+            </div>
+            <div className="col-md-12">
+              <ul className="t-ul">
+                <li data-aos="fade-right"
+                data-aos-delay="200"
+                data-aos-duration="1200">
+                  <div className="date">Secondary School : 2013</div>
+                  <div className="title text-dark">
+                    MRL Senior Secondary School - Delhi
+                  </div>
+                  <div className="descr">
+                    <small className="text-grey fw-semibold">
+                      {" "}
+                      Passed Secondary(10 th) From C.B.S.E Board, Delhi.
+                    </small>
+                  </div>
+                </li>
+                <li data-aos="fade-left"
+                data-aos-delay="400"
+                data-aos-duration="1200">
+                  <div className="date">Senior Secondary School : 2019</div>
+                  <div className="title text-dark">
+                    National Institute of Open Schooling
+                  </div>
+                  <div className="descr">
+                    <small className="text-grey fw-semibold">
+                      {" "}
+                      passed 12th from science stream (Open Learning).
+                    </small>
+                  </div>
+                </li>
+                <li data-aos="fade-right"
+                data-aos-delay="600"
+                data-aos-duration="1200">
+                  <div className="date">Delhi Polytechnic College : 2017</div>
+                  <div className="title text-dark">
+                    Guru Nanak Dev Institute of Technology, Rohini, Delhi.
+                  </div>
+                  <div className="descr">
+                    <small className="text-grey fw-semibold">
+                      Diploma in Polymer Technology From Guru Nanak Dev
+                      Institute of Technology, Rohini, Delhi.
+                    </small>
+                  </div>
+                </li>
+                <li data-aos="fade-left"
+                data-aos-delay="800"
+                data-aos-duration="1200">
+                  <div className="date">IGNOU University: 2023 (Pursuing)</div>
+                  <div className="title text-dark">
+                    Indira Gandhi National Open University
+                  </div>
+                  <div className="descr">
+                    <small className="text-grey fw-semibold">
+                      Pursuing BCA(3rd year) from ignou.
+                    </small>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="row justify-content-center">
+            <div className="text-center">
+              <h1
+                className=" fw-bold prim-color s-border position-relative my-5 d-inline-block px-2 fs-3"
+                data-aos="fade-right"
+                data-aos-delay="400"
+                data-aos-duration="1200"
+              >
+                Experience.
+              </h1>
+            </div>
+            <div className="col-md-12">
+              <ul className="t-ul">
+                <li data-aos="fade-right"
+                data-aos-delay="500"
+                data-aos-duration="1200">
+                  <div className="date">Cybernauts : 2022</div>
+                  <div className="title text-dark">Web Designer/Front-end</div>
+                  <div className="descr">
+                    <small className="text-grey fw-semibold">
+                      3 month internship in Cybernaut as a Front-end developer.
+                    </small>
+                  </div>
+                </li>
+                <li data-aos="fade-left"
+                data-aos-delay="700"
+                data-aos-duration="1200">
+                  <div className="date">Nebula Infotech: 2023</div>
+                  <div className="title text-dark">Web Designer/Front-end</div>
+                  <div className="descr">
+                    <small className="text-grey fw-semibold">
+                      1 Year Experience in NebulaInfotech as a Web Designer
+                    </small>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 }

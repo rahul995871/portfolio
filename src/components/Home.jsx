@@ -271,7 +271,7 @@ function Home() {
               <h6 className="text-grey fw-semibold" data-aos="fade-right"
      data-aos-delay="200"
     data-aos-duration="1200">GET ME KNOW</h6>
-              <h1 className="title fw-bold prim-color s-border position-relative text-dark" data-aos="fade-right"
+              <h1 className="title fw-bold prim-color s-border position-relative text-dark px-2" data-aos="fade-right"
      data-aos-delay="400"
     data-aos-duration="1200">About Me.</h1>
               <p className="text-grey"data-aos="fade-right"
@@ -354,7 +354,7 @@ function Home() {
               <h6 className="text-grey fw-semibold"data-aos="fade-right"
      data-aos-delay="200"
     data-aos-duration="1200">Explore my skills</h6>
-              <h1 className="title fw-bold prim-color s-border position-relative"data-aos="fade-right"
+              <h1 className="title fw-bold prim-color s-border position-relative px-2"data-aos="fade-right"
      data-aos-delay="400"
     data-aos-duration="1200">Skills.</h1>
               <p className="text-light"data-aos="fade-right"
@@ -503,7 +503,7 @@ function Home() {
               <h6 className="text-grey fw-semibold"data-aos="fade-right"
      data-aos-delay="200"
     data-aos-duration="1200">GET ME KNOW</h6>
-              <h1 className="title fw-bold prim-color s-border position-relative text-dark"data-aos="fade-right"
+              <h1 className="title fw-bold prim-color s-border position-relative text-dark px-2"data-aos="fade-right"
      data-aos-delay="400"
     data-aos-duration="1200">Projects.</h1>
               <p className="text-grey"data-aos="fade-right"

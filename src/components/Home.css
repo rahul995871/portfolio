@@ -1,0 +1,209 @@
+
+*{padding: 0;margin: 0;box-sizing: border-box; font-family: 'Dancing Script', cursive;font-family: 'Quicksand', sans-serif;}
+:root{
+    --primary-color:#b46e3c;
+    --secondary-color:#28282B;
+}
+.z-index{
+    z-index: 11!important;
+}
+.s-border::before{
+    content: "";
+    position: absolute;
+    left: -10px;
+    
+    height: 80%;
+    width: 5px;
+    background-color: var(--primary-color);
+    top: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.prim-color{
+    color:var(--primary-color) ;
+}
+.bg-primary{
+    background-color: var(--primary-color)!important;
+}
+.bg-secondary{
+    background-color: var(--secondary-color)!important;
+}
+.text-grey{
+    color: rgb(153 153 161)!important;
+}
+.fs-7{
+    font-size: 14px!important;
+}
+.b-border::before{
+    content: "";
+    position: absolute;
+    display: block;
+    background-color: var(--primary-color);
+    width: 5px;
+    height: 100%;
+    top: 0;
+    left:-10px;
+    
+
+}
+.section{
+    background-color: #f9f9f9;
+    margin: 60px 0;
+    overflow: hidden;
+    padding: 60px 0;
+    position: relative;
+    width: 100%;
+}
+.home-bg{
+    background-color: var(--secondary-color)!important;
+    height: 100vh;
+}
+.title{
+    font-size: 70px;
+
+}
+.home-blob::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(/src/images/blob.svg);
+   
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.social-icon{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+    cursor: pointer;
+}
+.social-icon-child{
+
+}
+.social-icon-img{
+    height: 20px;
+    width: 20px;
+}
+.social-icon-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* ------------------navbar---------------- */
+.c-navbar{
+    display: flex;
+    gap: 20px;
+    position: fixed;
+    left: 50%;
+    bottom: 1em;
+    transform: translate(-50%, -50%);
+    backdrop-filter: blur(25px);
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 1.5rem;
+    padding: 10px 20px;
+    z-index: 11;
+}
+.c-navbar div{
+background-color: black;
+border-radius: 50%;
+transition: 0.3s;
+
+}
+.c-navbar div:hover{
+    background-color: var(--primary-color);
+    cursor: pointer;
+  
+}
+.c-navbar div img{
+    height: 30px;
+    width: 30px;
+    padding: 9px;
+}
+/* ------------------navbar-end---------------- */
+
+/* ---------about----------- */
+.about-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content:center;
+}
+.about-card-child{
+    background: var(--primary-color);
+    color: white;
+    text-align: center;
+    flex: 1 0 20%;
+    padding: 40px 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 4px rgba(0,0,0,.25), 6px 6px 4px rgba(0,0,0,.25);
+}
+.about-card-img{
+    border-radius: 50%;
+    background: var(--secondary-color);
+    height: 120px;
+    width: 120px;
+    margin: auto;
+    padding: 25px;
+
+}
+.about-card-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+/* ---------about-end----------- */
+/* -----------skills------ */
+.progress, .progress-stacked{
+    height: 0.6rem!important;
+}
+.progress-bar{
+    background-color: var(--primary-color)!important;
+}
+/* -----------skills-end------ */
+
+
+/* -----------portfolio------ */
+.portfolio-blob{
+    position: absolute;
+    width: 76%;
+    height: 100%;
+    background-color: transparent;
+    border: 10px solid var(--primary-color);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.slick-slide img{
+    height: 100%;
+    width: 100%;
+
+}
+.slick-slide{
+    padding: 20px;
+}
+.slick-active.slick-center.slick-current{
+    padding: 0;
+}
+.center-img div img{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.v-btn a{
+    border: none;
+    outline: none;
+    background-color: var(--secondary-color);
+    color: white!important;
+    padding: 5px 15px;
+    font-size: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    
+}
+/* -----------portfolio-end------ */

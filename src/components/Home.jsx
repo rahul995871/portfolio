@@ -19,6 +19,34 @@ function AsNavFor() {
   const [nav2, setNav2] = useState(null);
   const slider1Ref = useRef(null);
   const slider2Ref = useRef(null);
+  const settings={
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  }
 
   useEffect(() => {
     setNav1(slider1Ref.current);
@@ -119,9 +147,10 @@ function AsNavFor() {
       </Slider>
 
       <Slider
+      {...settings}
         asNavFor={nav1}
         ref={slider2Ref}
-        slidesToShow={3}
+        slidesToShow={2}
         swipeToSlide={true}
         focusOnSelect={true}
         autoplay={true}

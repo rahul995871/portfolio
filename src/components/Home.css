@@ -10,7 +10,7 @@
 .s-border::before{
     content: "";
     position: absolute;
-    left: -10px;
+    left: 0;
     
     height: 80%;
     width: 5px;

@@ -162,9 +162,9 @@ function Home() {
       <div className="section m-0 p-0 home-bg">
         <div className="container">
           <div className="row align-items-center justify-content-center">
-            <div className="col-md-6 py-5 px-0">
+            <div className="col-md-7 py-5 ">
               {/* <p className='prim-color fs-4 mb-2'>Hello, I'm</p> */}
-              <p className="text-light title s-border position-relative">RAHUL RAUTELA</p>
+              <p className="text-light title s-border position-relative px-2">RAHUL RAUTELA</p>
               <span className="text-light fs-5">I'm </span>
 
               <TypeAnimation
@@ -221,7 +221,7 @@ function Home() {
 
             </div>
 
-            <div className="col-md-6 py-5 	  home-blob position-relative text-center" data-aos="zoom-in"data-aos-delay="50"
+            <div className="col-md-5 py-5 	  home-blob position-relative text-center" data-aos="zoom-in"data-aos-delay="50"
     data-aos-duration="1200">
               <img
                 className="position-relative"

@@ -692,6 +692,7 @@ function Home() {
       {/* -------------------------education---------------- */}
       <div className="section bg-secondary m-0" id="qualification">
         <div className="container">
+        
           <div className="row ">
             <div className="col-md-8 ">
               <h6
@@ -724,6 +725,16 @@ function Home() {
                 corrupti, suscipit accusamus! Odit unde veniam dolorum ipsum
                 doloribus.
               </p>
+
+              <div className="c-btn mt-5" data-aos="flip-up" data-aos-delay="500"
+                data-aos-duration="800">
+                <a>
+                  <span>Download CV</span>{" "}
+                  <div className="icon">
+                    <i className="fa-solid fa-arrow-right-long"></i>
+                  </div>{" "}
+                </a>
+              </div>
             </div>
           </div>
 

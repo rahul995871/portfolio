@@ -66,14 +66,15 @@ function AsNavFor() {
             className="col-md-3 text-center py-4"
             asNavFor={nav2}
             ref={slider1Ref}
+            arrows={false}
           >
-            <div className="py-md-3 py-0 bg-light">
-              <div className="position-relative bg-light ">
+            <div className="py-md-3 py-0 ">
+              <div className="position-relative bg-secondary">
                 <h4 className=" fw-bold prim-color">Pramerica.</h4>
                 <div className="text-grey">
-                  <span className="text-dark">Technology: </span>{" "}
-                  <span className="text-dark fw-semibold fs-7">
-                    Html, Css, Bootstrap, Javascript
+                
+                  <span className="text-light fw-semibold fs-7">
+                    Html | Css | Bootstrap | Javascript
                   </span>
                 </div>
                 <div className="v-btn mt-2 mx-auto">
@@ -87,13 +88,13 @@ function AsNavFor() {
               </div>
             </div>
 
-            <div className="py-md-3 py-0 bg-light">
-              <div className="position-relative bg-light ">
+            <div className="py-md-3 py-0">
+              <div className="position-relative bg-secondary ">
                 <h4 className=" fw-bold prim-color">BeatsMyTrip.</h4>
                 <div className="text-grey">
-                  <span className="text-dark">Technology: </span>{" "}
-                  <span className="text-dark fw-semibold fs-7">
-                    ReactJs, Html, Css, Bootstrap,
+                 
+                  <span className="text-light fw-semibold fs-7">
+                    ReactJs | Html | Css | Bootstrap,
                   </span>
                 </div>
                 <div className="v-btn mt-2 mx-auto">
@@ -107,13 +108,13 @@ function AsNavFor() {
               </div>
             </div>
 
-            <div className="py-md-3 py-0 bg-light">
-              <div className="position-relative bg-light ">
+            <div className="py-md-3 py-0 ">
+              <div className="position-relative bg-secondary ">
                 <h4 className=" fw-bold prim-color">Nazia.</h4>
                 <div className="text-grey">
-                  <span className="text-dark">Technology: </span>{" "}
-                  <span className="text-dark fw-semibold fs-7">
-                    Html, Css, Bootstrap, Javascript
+                 
+                  <span className="text-light fw-semibold fs-7">
+                    Html | Css | Bootstrap | Javascript
                   </span>
                 </div>
                 <div className="v-btn mt-2 mx-auto">
@@ -127,13 +128,13 @@ function AsNavFor() {
               </div>
             </div>
 
-            <div className="py-md-3 py-0 bg-light">
-              <div className="position-relative bg-light ">
+            <div className="py-md-3 py-0 ">
+              <div className="position-relative bg-secondary ">
                 <h4 className=" fw-bold prim-color">MindGrove.</h4>
                 <div className="text-grey">
-                  <span className="text-dark">Technology: </span>{" "}
-                  <span className="text-dark fw-semibold fs-7">
-                    Html, Css, Bootstrap, Javascript, Jquery
+                 
+                  <span className="text-light fw-semibold fs-7">
+                    Html | Css | Bootstrap | Javascript | Jquery
                   </span>
                 </div>
                 <div className="v-btn mt-2 mx-auto">
@@ -147,13 +148,13 @@ function AsNavFor() {
               </div>
             </div>
 
-            <div className="py-md-3 py-0 bg-light">
-              <div className="position-relative bg-light ">
+            <div className="py-md-3 py-0 ">
+              <div className="position-relative bg-secondary ">
                 <h4 className=" fw-bold prim-color">BaronStar.</h4>
                 <div className="text-grey">
-                  <span className="text-dark">Technology: </span>{" "}
-                  <span className="text-dark fw-semibold fs-7">
-                    Html, Css, Bootstrap, Javascript
+                 
+                  <span className="text-light fw-semibold fs-7">
+                    Html | Css | Bootstrap | Javascript
                   </span>
                 </div>
                 <div className="v-btn mt-2 mx-auto">
@@ -167,13 +168,13 @@ function AsNavFor() {
               </div>
             </div>
 
-            <div className="py-md-3 py-0 bg-light">
-              <div className="position-relative bg-light ">
+            <div className="py-md-3 py-0 ">
+              <div className="position-relative bg-secondary ">
                 <h4 className=" fw-bold prim-color">Alavaya.</h4>
                 <div className="text-grey">
-                  <span className="text-dark">Technology: </span>{" "}
-                  <span className="text-dark fw-semibold fs-7">
-                    Html, Css, Bootstrap, Javascript, Jquery
+                 
+                  <span className="text-light fw-semibold fs-7">
+                    Html | Css | Bootstrap | Javascript | Jquery
                   </span>
                 </div>
                 <div className="v-btn mt-2 mx-auto">
@@ -192,7 +193,8 @@ function AsNavFor() {
             {...settings}
             asNavFor={nav1}
             ref={slider2Ref}
-            slidesToShow={2}
+            slidesToShow={3}
+            arrows={false}
             swipeToSlide={true}
             focusOnSelect={true}
             autoplay={true}
@@ -229,7 +231,7 @@ function AsNavFor() {
 function Home() {
   return (
     <>
-      <div className="section m-0 p-0 home-bg">
+      <div className="section m-0 p-0 home-bg ">
         <div className="container">
           <div className="row align-items-center justify-content-center">
             <div className="col-md-7 py-5 ">
@@ -342,12 +344,12 @@ function Home() {
 
       {/* -------------------about---------------- */}
 
-      <div className="section bg-light m-0" id="about">
+      <div className="section  m-0" id="about">
         <div className="container">
           <div className="row ">
             <div className="col-md-8 ">
               <h6
-                className="text-grey fw-semibold"
+                className="prim-color fw-semibold"
                 data-aos="fade-right"
                 data-aos-delay="200"
                 data-aos-duration="1200"
@@ -355,7 +357,7 @@ function Home() {
                 GET ME KNOW
               </h6>
               <h1
-                className="title fw-bold prim-color s-border position-relative text-dark px-2"
+                className="title fw-bold text-light s-border position-relative  px-2"
                 data-aos="fade-right"
                 data-aos-delay="400"
                 data-aos-duration="1200"
@@ -363,7 +365,7 @@ function Home() {
                 About Me.
               </h1>
               <p
-                className="text-grey"
+                className="text-light"
                 data-aos="fade-right"
                 data-aos-delay="500"
                 data-aos-duration="1200"
@@ -470,12 +472,12 @@ function Home() {
 
       {/* -------------------skills---------------- */}
 
-      <div className="section bg-secondary m-0" id="skills">
+      <div className="section  m-0" id="skills">
         <div className="container">
           <div className="row ">
             <div className="col-md-8 ">
               <h6
-                className="text-grey fw-semibold"
+                className="prim-color fw-semibold"
                 data-aos="fade-right"
                 data-aos-delay="200"
                 data-aos-duration="1200"
@@ -483,7 +485,7 @@ function Home() {
                 Explore my skills
               </h6>
               <h1
-                className="title fw-bold prim-color s-border position-relative px-2"
+                className="title fw-bold text-light s-border position-relative px-2"
                 data-aos="fade-right"
                 data-aos-delay="400"
                 data-aos-duration="1200"
@@ -647,12 +649,12 @@ function Home() {
       {/* -------------------skills-end---------------- */}
 
       {/* -------------------projects--------------- */}
-      <div className="section bg-light m-0" id="portfolio">
+      <div className="section  m-0" id="portfolio">
         <div className="container">
           <div className="row ">
             <div className="col-md-8 ">
               <h6
-                className="text-grey fw-semibold"
+                className="prim-color fw-semibold"
                 data-aos="fade-right"
                 data-aos-delay="200"
                 data-aos-duration="1200"
@@ -660,7 +662,7 @@ function Home() {
                 GET ME KNOW
               </h6>
               <h1
-                className="title fw-bold prim-color s-border position-relative text-dark px-2"
+                className="title fw-bold  s-border position-relative text-light px-2"
                 data-aos="fade-right"
                 data-aos-delay="400"
                 data-aos-duration="1200"
@@ -690,12 +692,12 @@ function Home() {
       {/* -------------------projects-end--------------- */}
 
       {/* -------------------------education---------------- */}
-      <div className="section bg-secondary m-0" id="qualification">
+      <div className="section  m-0" id="qualification">
         <div className="container">
           <div className="row ">
             <div className="col-md-8 ">
               <h6
-                className="text-grey fw-semibold"
+                className="prim-color fw-semibold"
                 data-aos="fade-right"
                 data-aos-delay="200"
                 data-aos-duration="1200"
@@ -703,7 +705,7 @@ function Home() {
                 Explore my skills
               </h6>
               <h1
-                className="title fw-bold prim-color s-border position-relative px-2 "
+                className="title fw-bold text-light s-border position-relative px-2 "
                 data-aos="fade-right"
                 data-aos-delay="400"
                 data-aos-duration="1200"
@@ -868,12 +870,12 @@ function Home() {
       {/* ----------------------education-end-------------- */}
 
       {/* -------------------contact--------------- */}
-      <div className="section bg-light m-0" id="portfolio">
+      <div className="section  m-0" id="contact">
         <div className="container">
           <div className="row ">
             <div className="col-md-8 ">
               <h6
-                className="text-grey fw-semibold"
+                className="prim-color fw-semibold"
                 data-aos="fade-right"
                 data-aos-delay="200"
                 data-aos-duration="1200"
@@ -881,7 +883,7 @@ function Home() {
                 GET ME KNOW
               </h6>
               <h1
-                className="title fw-bold prim-color s-border position-relative text-dark px-2"
+                className="title fw-bold s-border position-relative text-light px-2"
                 data-aos="fade-right"
                 data-aos-delay="400"
                 data-aos-duration="1200"
@@ -889,7 +891,7 @@ function Home() {
                 Contact Me.
               </h1>
               <p
-                className="text-grey"
+                className="text-light"
                 data-aos="fade-right"
                 data-aos-delay="500"
                 data-aos-duration="1200"
@@ -907,7 +909,7 @@ function Home() {
               <div className="c-img">
                 <img src={require("../images/call.png")} />
               </div>
-              <small className="fw-semibold fs-6">+91 9958718364</small>
+              <small className="fw-semibold fs-7 text-light">+91 9958718364</small>
             </div>
             <div className="c-icon-child"data-aos="fade-up"
                   data-aos-delay="200"
@@ -915,7 +917,7 @@ function Home() {
               <div className="c-img">
                 <img src={require("../images/email.png")} />
               </div>
-              <small className="fw-semibold fs-6">
+              <small className="fw-semibold fs-7 text-light">
                 rahulsingh995871@gmail.com
               </small>
             </div>
@@ -925,7 +927,7 @@ function Home() {
               <div className="c-img">
                 <img src={require("../images/location.png")} />
               </div>
-              <small className="fw-semibold fs-6">
+              <small className="fw-semibold fs-7 text-light">
                 E-240/12 khajoori khas near<br></br>Karawal Nagar Delhi-94
               </small>
             </div>

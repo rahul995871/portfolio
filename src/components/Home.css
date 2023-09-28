@@ -113,7 +113,7 @@ body{
     display: block;
     width: 90%;
     height: 100%;
-    background-color: black;
+    background-color: transparent;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 20px;

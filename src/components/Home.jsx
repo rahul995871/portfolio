@@ -1057,12 +1057,12 @@ function Home() {
       {/* -------------------footer------------------ */}
       <div className="section bg-dark m-0 py-4">
        
-        <div className="container pb-5 mb-5">
+        <div className="container">
           <div className="row justify-content-center align-items-center text-center">
             <div className="col-md-10">
              
               <p className="fs-7 mb-0 text-light">
-                Copyright © 2023 RPortfolio | Developed by{" "}
+                Copyright © 2023 | Developed by{" "}
                 <a
                   href="tel:919958718364"
                   className="text-white bg-primary text-decoration-none p-1 rounded"

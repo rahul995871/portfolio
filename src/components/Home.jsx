@@ -231,11 +231,11 @@ function AsNavFor() {
 function Home() {
   return (
     <>
-      <div className="section m-0 p-0 home-bg ">
+      {/* <div className="section m-0 p-0 home-bg ">
         <div className="container">
           <div className="row align-items-center justify-content-center">
             <div className="col-md-7 py-5 ">
-              {/* <p className='prim-color fs-4 mb-2'>Hello, I'm</p> */}
+             
               <p className="text-light title s-border position-relative px-2">
                 RAHUL RAUTELA
               </p>
@@ -243,9 +243,9 @@ function Home() {
 
               <TypeAnimation
                 sequence={[
-                  // Same substring at the start will only be typed out once, initially
+                
                   "Web Designer",
-                  2000, // wait 1s before replacing "Mice" with "Hamsters"
+               
                   "Web Developer",
                   1900,
                 ]}
@@ -309,6 +309,124 @@ function Home() {
               />
             </div>
           </div>
+        </div>
+        <div className="c-navbar">
+          <BrowserRouter>
+            <HashLink to="/#">
+              <div>
+                <img src={require("../images/home.png")} />
+              </div>{" "}
+            </HashLink>
+            <HashLink to="/#about">
+              <div>
+                <img src={require("../images/about.png")} />
+              </div>
+            </HashLink>
+            <HashLink to="/#qualification">
+              <div>
+                <img src={require("../images/resume.png")} />
+              </div>
+            </HashLink>
+
+            <HashLink to="/#portfolio">
+              <div>
+                <img src={require("../images/port.png")} />
+              </div>
+            </HashLink>
+            <HashLink to="/#skills">
+              <div>
+                <img src={require("../images/contact.png")} />
+              </div>
+            </HashLink>
+          </BrowserRouter>
+        </div>
+      </div> */}
+
+<div className="section m-0 pt-0 pt-md-5  home-bg ">
+        <div className="container">
+         <div className="row">
+          <div className="col-md-10">
+          <div className="row align-items-center justify-content-between">
+          
+
+          <div
+            className="col-md-5 py-5  order-1 order-md-0	  home-blob position-relative text-center"
+            data-aos="zoom-in"
+            data-aos-delay="50"
+            data-aos-duration="1200"
+          >
+            <img
+              className="position-relative px-3 py-1 my-auto"
+              src={require("../images/me3.png")}
+            />
+          </div>
+
+          <div className="col-md-5 py-5  ">
+            {/* <p className='prim-color fs-4 mb-2'>Hello, I'm</p> */}
+            <p className="text-light main-title  position-relative px-2">
+              Hi, I'm <span className="prim-color text-dec">RAHUL<br></br>RAUTELA.</span> A <br></br> 
+              <TypeAnimation
+              sequence={[
+                // Same substring at the start will only be typed out once, initially
+                "Web Designer",
+                2000, // wait 1s before replacing "Mice" with "Hamsters"
+                "Web Developer",
+                1900,
+              ]}
+              wrapper="p"
+              speed={50}
+              style={{
+                fontSize: "30px",
+                display: "inline-block",
+                color: "white",
+              }}
+              repeat={Infinity}
+            />
+            </p>
+            <span className="text-light fs-7 position-relative">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea quaerat alias accusamus voluptas autem! </span>
+
+           
+
+            <div className="social-icon mt-4">
+              <div className="social-icon-child animate__pulse animate__animated animate__infinite">
+                <div className="social-icon-img">
+                  <img src={require("../images/fb.png")} />
+                </div>
+              </div>
+              <div className="social-icon-child animate__pulse animate__animated animate__infinite">
+                <div className="social-icon-img">
+                  <img src={require("../images/instagram.png")} />
+                </div>
+              </div>
+              <div className="social-icon-child animate__pulse animate__animated animate__infinite">
+                <div className="social-icon-img">
+                  <img src={require("../images/linkedin.png")} />
+                </div>
+              </div>
+              <div className="social-icon-child animate__pulse animate__animated animate__infinite">
+                <div className="social-icon-img">
+                  <img src={require("../images/twitter.png")} />
+                </div>
+              </div>
+              <div className="social-icon-child animate__pulse animate__animated animate__infinite">
+                <div className="social-icon-img">
+                  <img src={require("../images/whatsapp.png")} />
+                </div>
+              </div>
+            </div>
+
+            <div className="c-btn mt-5 position-relative">
+              <a>
+                <span>Download CV</span>{" "}
+                <div className="icon">
+                  <i className="fa-solid fa-arrow-right-long"></i>
+                </div>{" "}
+              </a>
+            </div>
+          </div>
+        </div>
+          </div>
+         </div>
         </div>
         <div className="c-navbar">
           <BrowserRouter>

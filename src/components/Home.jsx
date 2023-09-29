@@ -9,7 +9,9 @@ import {
   BrowserRouter,
   Router,
   Route,
+  HashRouter,Routes
 } from "react-router-dom";
+
 import { HashLink } from "react-router-hash-link";
 import { useState, useRef, useEffect } from "react";
 
@@ -496,7 +498,8 @@ function Home() {
           </div>
         </div>
         <div className="c-navbar">
-          <BrowserRouter>
+          <HashRouter>
+          
             <HashLink to="/#contact">
               <div>
                 <img src={require("../images/contact.png")} />
@@ -527,7 +530,8 @@ function Home() {
                 <img src={require("../images/home.png")} />
               </div>{" "}
             </HashLink>
-          </BrowserRouter>
+          
+          </HashRouter>
         </div>
       </div>
 

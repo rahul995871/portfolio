@@ -78,7 +78,7 @@ body{
 }
 .home-bg{
     /* background-color: var(--secondary-color)!important; */
-    height: 100vh;
+    /* height: 100vh; */
 }
 .home-bg::before{
   content: "";
@@ -138,10 +138,12 @@ body{
 .social-icon-img{
     height: 20px;
     width: 20px;
+    display: inline-block;
 }
 .social-icon-img img{
     height: 100%;
     width: 100%;
+ 
     object-fit: cover;
     object-position: center;
 }
@@ -207,7 +209,7 @@ body{
     display: flex;
     gap: 20px;
     position: fixed;
-    right: -90px;
+    right: -100px;
     top: 50%;
     width: 310px;
     
@@ -235,9 +237,9 @@ transition: 0.3s;
   
 }
 .c-navbar div img{
-  height: 40px;
-  width: 40px;
-  padding: 11px;
+  height: 35px;
+  width: 35px;
+  padding: 10px;
   transform: rotate(90deg);
 }
 /* ------------------navbar-end---------------- */
@@ -255,6 +257,7 @@ transition: 0.3s;
     text-align: center;
     flex: 1 0 20%;
     padding: 40px 40px;
+    padding-bottom: 30px!important;
     border-radius: 15px;
     box-shadow: 0 4px 4px rgba(0,0,0,.25), 6px 6px 4px rgba(0,0,0,.25);
 }
@@ -264,7 +267,7 @@ transition: 0.3s;
     height: 120px;
     width: 120px;
     margin: auto;
-    padding: 25px;
+    padding: 30px;
 
 }
 .about-card-img img{
@@ -309,6 +312,8 @@ transition: 0.3s;
 }
 .center-img div img{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 7px;
+    overflow: auto;
 }
 .v-btn a{
   background: var(--primary-color);
@@ -524,6 +529,10 @@ color: white;
     text-align: center;
     cursor: pointer;
     margin-bottom: 20px;
+    text-decoration: none;
+}
+.c-icon-child:last-child{
+  cursor: default;
 }
 .c-icon-child:last-child{
     margin-bottom: 0!important;

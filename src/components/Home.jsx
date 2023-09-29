@@ -72,13 +72,16 @@ function AsNavFor() {
               <div className="position-relative bg-secondary">
                 <h4 className=" fw-bold prim-color">Pramerica.</h4>
                 <div className="text-grey">
-                
                   <span className="text-light fw-semibold fs-7">
                     Html | Css | Bootstrap | Javascript
                   </span>
                 </div>
                 <div className="v-btn mt-2 mx-auto">
-                  <a>
+                  <a
+                    target="blank"
+                    href="https://emergingvisionaries.com/in/"
+                    className="text-decoration-none mb-0 mb-md-2"
+                  >
                     <span>visit</span>{" "}
                     <div className="icon">
                       <i className="fa-solid fa-arrow-right-long"></i>
@@ -92,13 +95,16 @@ function AsNavFor() {
               <div className="position-relative bg-secondary ">
                 <h4 className=" fw-bold prim-color">BeatsMyTrip.</h4>
                 <div className="text-grey">
-                 
                   <span className="text-light fw-semibold fs-7">
                     ReactJs | Html | Css | Bootstrap,
                   </span>
                 </div>
                 <div className="v-btn mt-2 mx-auto">
-                  <a>
+                  <a
+                    target="blank"
+                    href="https://beatsmytrip.com/"
+                    className="text-decoration-none mb-0 mb-md-2"
+                  >
                     <span>visit</span>{" "}
                     <div className="icon">
                       <i className="fa-solid fa-arrow-right-long"></i>
@@ -112,13 +118,16 @@ function AsNavFor() {
               <div className="position-relative bg-secondary ">
                 <h4 className=" fw-bold prim-color">Nazia.</h4>
                 <div className="text-grey">
-                 
                   <span className="text-light fw-semibold fs-7">
                     Html | Css | Bootstrap | Javascript
                   </span>
                 </div>
                 <div className="v-btn mt-2 mx-auto">
-                  <a>
+                  <a
+                    target="blank"
+                    href="https://www.nazia.co.in/"
+                    className="text-decoration-none mb-0 mb-md-2"
+                  >
                     <span>visit</span>{" "}
                     <div className="icon">
                       <i className="fa-solid fa-arrow-right-long"></i>
@@ -132,13 +141,16 @@ function AsNavFor() {
               <div className="position-relative bg-secondary ">
                 <h4 className=" fw-bold prim-color">MindGrove.</h4>
                 <div className="text-grey">
-                 
                   <span className="text-light fw-semibold fs-7">
                     Html | Css | Bootstrap | Javascript | Jquery
                   </span>
                 </div>
                 <div className="v-btn mt-2 mx-auto">
-                  <a>
+                  <a
+                    target="blank"
+                    href="https://www.mindgrove.ca/"
+                    className="text-decoration-none mb-0 mb-md-2"
+                  >
                     <span>visit</span>{" "}
                     <div className="icon">
                       <i className="fa-solid fa-arrow-right-long"></i>
@@ -152,13 +164,16 @@ function AsNavFor() {
               <div className="position-relative bg-secondary ">
                 <h4 className=" fw-bold prim-color">BaronStar.</h4>
                 <div className="text-grey">
-                 
                   <span className="text-light fw-semibold fs-7">
                     Html | Css | Bootstrap | Javascript
                   </span>
                 </div>
                 <div className="v-btn mt-2 mx-auto">
-                  <a>
+                  <a
+                    target="blank"
+                    href="https://www.baronstar.net/"
+                    className="text-decoration-none mb-0 mb-md-2"
+                  >
                     <span>visit</span>{" "}
                     <div className="icon">
                       <i className="fa-solid fa-arrow-right-long"></i>
@@ -172,13 +187,16 @@ function AsNavFor() {
               <div className="position-relative bg-secondary ">
                 <h4 className=" fw-bold prim-color">Alavaya.</h4>
                 <div className="text-grey">
-                 
                   <span className="text-light fw-semibold fs-7">
                     Html | Css | Bootstrap | Javascript | Jquery
                   </span>
                 </div>
                 <div className="v-btn mt-2 mx-auto">
-                  <a>
+                  <a
+                    target="blank"
+                    href="https://www.alavyaaconstruction.com/"
+                    className="text-decoration-none mb-0 mb-md-2"
+                  >
                     <span>visit</span>{" "}
                     <div className="icon">
                       <i className="fa-solid fa-arrow-right-long"></i>
@@ -202,25 +220,49 @@ function AsNavFor() {
             centerPadding="0px"
             className="center center-img col-md-9"
           >
-            <div>
+            <a
+              target="blank"
+              href="https://emergingvisionaries.com/in/"
+              className="text-decoration-none"
+            >
               <img src={require("../images/port_1.jpg")} />
-            </div>
-            <div>
+            </a>
+            <a
+              target="blank"
+              href="https://beatsmytrip.com/"
+              className="text-decoration-none"
+            >
               <img src={require("../images/port_2.jpg")} />
-            </div>
+            </a>
 
-            <div>
+            <a
+              target="blank"
+              href="https://www.nazia.co.in/"
+              className="text-decoration-none"
+            >
               <img src={require("../images/port_3.jpg")} />
-            </div>
-            <div>
+            </a>
+            <a
+              target="blank"
+              href="https://www.mindgrove.ca/"
+              className="text-decoration-none"
+            >
               <img src={require("../images/port_4.jpg")} />
-            </div>
-            <div>
+            </a>
+            <a
+              target="blank"
+              href="https://www.baronstar.net/"
+              className="text-decoration-none"
+            >
               <img src={require("../images/port_5.jpg")} />
-            </div>
-            <div>
+            </a>
+            <a
+              target="blank"
+              href="https://www.alavyaaconstruction.com/"
+              className="text-decoration-none"
+            >
               <img src={require("../images/port_6.jpg")} />
-            </div>
+            </a>
           </Slider>
         </div>
       </div>
@@ -342,102 +384,122 @@ function Home() {
         </div>
       </div> */}
 
-<div className="section m-0 pt-0 pt-md-5  home-bg ">
+      <div className="section m-0 pt-0 pt-md-5  home-bg ">
         <div className="container">
-         <div className="row">
-          <div className="col-md-10">
-          <div className="row align-items-center justify-content-between">
-          
-
-          <div
-            className="col-md-5 py-5  order-1 order-md-0	  home-blob position-relative text-center"
-            data-aos="zoom-in"
-            data-aos-delay="50"
-            data-aos-duration="1200"
-          >
-            <img
-              className="position-relative px-3 py-1 my-auto"
-              src={require("../images/me3.png")}
-            />
-          </div>
-
-          <div className="col-md-5 py-5  ">
-            {/* <p className='prim-color fs-4 mb-2'>Hello, I'm</p> */}
-            <p className="text-light main-title  position-relative px-2">
-              Hi, I'm <span className="prim-color text-dec">RAHUL<br></br>RAUTELA.</span> A <br></br> 
-              <TypeAnimation
-              sequence={[
-                // Same substring at the start will only be typed out once, initially
-                "Web Designer",
-                2000, // wait 1s before replacing "Mice" with "Hamsters"
-                "Web Developer",
-                1900,
-              ]}
-              wrapper="p"
-              speed={50}
-              style={{
-                fontSize: "30px",
-                display: "inline-block",
-                color: "white",
-              }}
-              repeat={Infinity}
-            />
-            </p>
-            <span className="text-light fs-7 position-relative">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea quaerat alias accusamus voluptas autem! </span>
-
-           
-
-            <div className="social-icon mt-4">
-              <div className="social-icon-child animate__pulse animate__animated animate__infinite">
-                <div className="social-icon-img">
-                  <img src={require("../images/fb.png")} />
+          <div className="row">
+            <div className="col-md-10">
+              <div className="row align-items-center justify-content-between">
+                <div
+                  className="col-md-5 py-3  order-1 order-md-0	  home-blob position-relative text-center"
+                  data-aos="zoom-in"
+                  data-aos-delay="50"
+                  data-aos-duration="1200"
+                >
+                  <img
+                    className="position-relative px-3 py-1 my-auto"
+                    src={require("../images/me22.png")}
+                  />
                 </div>
-              </div>
-              <div className="social-icon-child animate__pulse animate__animated animate__infinite">
-                <div className="social-icon-img">
-                  <img src={require("../images/instagram.png")} />
-                </div>
-              </div>
-              <div className="social-icon-child animate__pulse animate__animated animate__infinite">
-                <div className="social-icon-img">
-                  <img src={require("../images/linkedin.png")} />
-                </div>
-              </div>
-              <div className="social-icon-child animate__pulse animate__animated animate__infinite">
+
+                <div className="col-md-5 py-5  ">
+                  {/* <p className='prim-color fs-4 mb-2'>Hello, I'm</p> */}
+                  <p className="text-light main-title  position-relative px-2">
+                    Hi, I'm{" "}
+                    <span className="prim-color text-dec">
+                      RAHUL<br></br>RAUTELA.
+                    </span>{" "}
+                    A <br></br>
+                    <TypeAnimation
+                      sequence={[
+                        // Same substring at the start will only be typed out once, initially
+                        "Web Designer",
+                        2000, // wait 1s before replacing "Mice" with "Hamsters"
+                        "Web Developer",
+                        1900,
+                      ]}
+                      wrapper="p"
+                      speed={50}
+                      style={{
+                        fontSize: "30px",
+                        display: "inline-block",
+                        color: "white",
+                      }}
+                      repeat={Infinity}
+                    />
+                  </p>
+
+                  <span className="text-light fs-7 position-relative">
+                    {" "}
+                    I'm here to bring your digital visions to life. I combine a
+                    passion for clean and intuitive design with the latest
+                    technologies to deliver engaging user experiences. Explore
+                    my work, and let's create something remarkable together."
+                  </span>
+                  <div className="social-icon mt-4">
+                    <div className="social-icon-child animate__pulse animate__animated animate__infinite">
+                      <a
+                        target="blank"
+                        className="social-icon-img"
+                        href="https://www.facebook.com/profile.php?id=100008840597471"
+                      >
+                        <img src={require("../images/fb.png")} />
+                      </a>
+                    </div>
+                    <div className="social-icon-child animate__pulse animate__animated animate__infinite">
+                      <a
+                        className="social-icon-img"
+                        target="blank"
+                        href="https://instagram.com/rithvik.guty?igshid=OGQ5ZDc2ODk2ZA=="
+                      >
+                        <img src={require("../images/instagram.png")} />
+                      </a>
+                    </div>
+                    <div className="social-icon-child animate__pulse animate__animated animate__infinite">
+                      <a
+                        className="social-icon-img"
+                        target="blank"
+                        href="https://www.linkedin.com/in/rahul-rautela-b61ab9237"
+                      >
+                        <img src={require("../images/linkedin.png")} />
+                      </a>
+                    </div>
+                    {/* <div className="social-icon-child animate__pulse animate__animated animate__infinite">
                 <div className="social-icon-img">
                   <img src={require("../images/twitter.png")} />
                 </div>
-              </div>
-              <div className="social-icon-child animate__pulse animate__animated animate__infinite">
-                <div className="social-icon-img">
-                  <img src={require("../images/whatsapp.png")} />
+              </div> */}
+                    <div className="social-icon-child animate__pulse animate__animated animate__infinite">
+                      <a
+                        className="social-icon-img"
+                        target="blank"
+                        href="https://wa.me/919958718364"
+                      >
+                        <img src={require("../images/whatsapp.png")} />
+                      </a>
+                    </div>
+                  </div>
+                  <div className="c-btn mt-5 position-relative">
+                    <a
+                      href={require("../images/cv.pdf")}
+                      className="text-decoration-none"
+                      target="blank"
+                    >
+                      <span>Download CV</span>{" "}
+                      <div className="icon">
+                        <i className="fa-solid fa-arrow-right-long"></i>
+                      </div>{" "}
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
-
-            <div className="c-btn mt-5 position-relative">
-              <a>
-                <span>Download CV</span>{" "}
-                <div className="icon">
-                  <i className="fa-solid fa-arrow-right-long"></i>
-                </div>{" "}
-              </a>
-            </div>
           </div>
-        </div>
-          </div>
-         </div>
         </div>
         <div className="c-navbar">
           <BrowserRouter>
-            <HashLink to="/#">
+            <HashLink to="/#contact">
               <div>
-                <img src={require("../images/home.png")} />
-              </div>{" "}
-            </HashLink>
-            <HashLink to="/#about">
-              <div>
-                <img src={require("../images/about.png")} />
+                <img src={require("../images/contact.png")} />
               </div>
             </HashLink>
             <HashLink to="/#qualification">
@@ -445,7 +507,6 @@ function Home() {
                 <img src={require("../images/resume.png")} />
               </div>
             </HashLink>
-
             <HashLink to="/#portfolio">
               <div>
                 <img src={require("../images/port.png")} />
@@ -453,8 +514,18 @@ function Home() {
             </HashLink>
             <HashLink to="/#skills">
               <div>
-                <img src={require("../images/contact.png")} />
+                <img src={require("../images/skills.png")} />
+              </div>{" "}
+            </HashLink>
+            <HashLink to="/#about">
+              <div>
+                <img src={require("../images/about.png")} />
               </div>
+            </HashLink>
+            <HashLink to="/#">
+              <div>
+                <img src={require("../images/home.png")} />
+              </div>{" "}
             </HashLink>
           </BrowserRouter>
         </div>
@@ -465,14 +536,14 @@ function Home() {
       <div className="section  m-0" id="about">
         <div className="container">
           <div className="row ">
-            <div className="col-md-8 ">
+            <div className="col-md-9 fs-7  ">
               <h6
                 className="prim-color fw-semibold"
                 data-aos="fade-right"
                 data-aos-delay="200"
                 data-aos-duration="1200"
               >
-                GET ME KNOW
+                MEET THE CREATOR
               </h6>
               <h1
                 className="title fw-bold text-light s-border position-relative  px-2"
@@ -483,18 +554,27 @@ function Home() {
                 About Me.
               </h1>
               <p
-                className="text-light"
+                className="text-light lh-lg"
                 data-aos="fade-right"
                 data-aos-delay="500"
                 data-aos-duration="1200"
               >
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Debitis sapiente ipsum dolorum dicta eaque cumque inventore
-                molestias, beatae ea quaerat alias accusamus voluptas autem!
-                Alias odit voluptates in totam vitae dignissimos minus eaque
-                culpa unde tempore dolore aperiam obcaecati voluptatum aliquam
-                corrupti, suscipit accusamus! Odit unde veniam dolorum ipsum
-                doloribus.
+                Hello, I'm Rahul Rautela, a dedicated web designer and developer
+                with a focus on front-end development. I'm passionate about
+                crafting engaging and user-friendly websites that leave a
+                lasting impression. With over 1 year of hands-on experience in
+                web designing at NebulaInfotech, I've honed my skills in
+                creating visually appealing and responsive web interfaces.
+                During my journey to becoming a web professional, I also
+                embarked on a 3-month internship at Cybernaut, where I had the
+                opportunity to work on exciting projects and further develop my
+                skills in web development. My work is a reflection of my
+                commitment to clean, modern design and seamless user
+                experiences. I firmly believe in the power of creativity and
+                technology to transform ideas into impactful digital solutions.
+                Thank you for visiting my portfolio website. Explore my projects
+                and skills to see how I bring my passion for web design and
+                development to life.
               </p>
             </div>
           </div>
@@ -508,7 +588,7 @@ function Home() {
                   data-aos-delay="100"
                   data-aos-duration="500"
                 >
-                  <div className="about-card-img mb-1">
+                  <div className="about-card-img mb-4">
                     <img
                       src={require("../images/web-design.png")}
                       className="animate__pulse animate__animated animate__infinite"
@@ -527,7 +607,7 @@ function Home() {
                   data-aos-delay="200"
                   data-aos-duration="800"
                 >
-                  <div className="about-card-img mb-1">
+                  <div className="about-card-img mb-4">
                     <img
                       src={require("../images/adobe-photoshop.png")}
                       className="animate__pulse animate__animated animate__infinite"
@@ -547,7 +627,7 @@ function Home() {
                   data-aos-delay="300"
                   data-aos-duration="1200"
                 >
-                  <div className="about-card-img mb-1">
+                  <div className="about-card-img mb-4">
                     <img
                       src={require("../images/framework.png")}
                       className="animate__pulse animate__animated animate__infinite"
@@ -566,7 +646,7 @@ function Home() {
                   data-aos-delay="500"
                   data-aos-duration="1500"
                 >
-                  <div className="about-card-img mb-1">
+                  <div className="about-card-img mb-4">
                     <img
                       src={require("../images/responsive.png")}
                       className="animate__pulse animate__animated animate__infinite"
@@ -593,14 +673,14 @@ function Home() {
       <div className="section  m-0" id="skills">
         <div className="container">
           <div className="row ">
-            <div className="col-md-8 ">
+            <div className="col-md-9 fs-7 ">
               <h6
                 className="prim-color fw-semibold"
                 data-aos="fade-right"
                 data-aos-delay="200"
                 data-aos-duration="1200"
               >
-                Explore my skills
+                SKILLS AT A GLANCE
               </h6>
               <h1
                 className="title fw-bold text-light s-border position-relative px-2"
@@ -611,18 +691,25 @@ function Home() {
                 Skills.
               </h1>
               <p
-                className="text-light"
+                className="text-light lh-lg"
                 data-aos="fade-right"
                 data-aos-delay="500"
                 data-aos-duration="1200"
               >
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Debitis sapiente ipsum dolorum dicta eaque cumque inventore
-                molestias, beatae ea quaerat alias accusamus voluptas autem!
-                Alias odit voluptates in totam vitae dignissimos minus eaque
-                culpa unde tempore dolore aperiam obcaecati voluptatum aliquam
-                corrupti, suscipit accusamus! Odit unde veniam dolorum ipsum
-                doloribus.
+                I have a strong foundation in front-end development, including
+                proficiency in HTML5, CSS3, and JavaScript. Currently, I'm in
+                the learning phase of React.js and am eager to further explore
+                and work with this powerful JavaScript library in future
+                projects. My skill set extends to responsive web design, UI/UX
+                design principles, and web performance optimization. I'm
+                well-versed in essential web development tools like Visual
+                Studio Code and Git, utilizing GitHub for version control.
+                Additionally, I have experience with design and prototyping
+                tools such as Photoshop, which enhance my ability to create
+                visually appealing and user-friendly web interfaces. Beyond my
+                current skill set, I'm enthusiastic about continuously learning
+                new technologies to stay at the forefront of web development
+                trends.
               </p>
             </div>
           </div>
@@ -770,14 +857,14 @@ function Home() {
       <div className="section  m-0" id="portfolio">
         <div className="container">
           <div className="row ">
-            <div className="col-md-8 ">
+            <div className="col-md-8 fs-7">
               <h6
                 className="prim-color fw-semibold"
                 data-aos="fade-right"
                 data-aos-delay="200"
                 data-aos-duration="1200"
               >
-                GET ME KNOW
+                EXPLORE MY PORTFOLIO
               </h6>
               <h1
                 className="title fw-bold  s-border position-relative text-light px-2"
@@ -788,18 +875,20 @@ function Home() {
                 Projects.
               </h1>
               <p
-                className="text-grey"
+                className="text-light lh-lg"
                 data-aos="fade-right"
                 data-aos-delay="500"
                 data-aos-duration="1200"
               >
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Debitis sapiente ipsum dolorum dicta eaque cumque inventore
-                molestias, beatae ea quaerat alias accusamus voluptas autem!
-                Alias odit voluptates in totam vitae dignissimos minus eaque
-                culpa unde tempore dolore aperiam obcaecati voluptatum aliquam
-                corrupti, suscipit accusamus! Odit unde veniam dolorum ipsum
-                doloribus.
+                Explore my showcase of projects that highlight my skills and
+                expertise in web design and development. Each project is a
+                testament to my commitment to creating visually stunning and
+                user-friendly websites. Whether it's
+                crafting responsive interfaces, optimizing performance, or
+                ensuring seamless user experiences, I take pride in every
+                project's success. Feel free to browse through the featured
+                projects to get a glimpse of my creative solutions and technical
+                proficiency. 
               </p>
             </div>
           </div>
@@ -813,14 +902,14 @@ function Home() {
       <div className="section  m-0" id="qualification">
         <div className="container">
           <div className="row ">
-            <div className="col-md-8 ">
+            <div className="col-md-9 fs-7">
               <h6
                 className="prim-color fw-semibold"
                 data-aos="fade-right"
                 data-aos-delay="200"
                 data-aos-duration="1200"
               >
-                Explore my skills
+                MY ACADEMIC AND PROFESSIONAL STORY
               </h6>
               <h1
                 className="title fw-bold text-light s-border position-relative px-2 "
@@ -831,18 +920,26 @@ function Home() {
                 Qualification & Experience.
               </h1>
               <p
-                className="text-light"
+                className="text-light lh-lg"
                 data-aos="fade-right"
                 data-aos-delay="500"
                 data-aos-duration="1200"
               >
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Debitis sapiente ipsum dolorum dicta eaque cumque inventore
-                molestias, beatae ea quaerat alias accusamus voluptas autem!
-                Alias odit voluptates in totam vitae dignissimos minus eaque
-                culpa unde tempore dolore aperiam obcaecati voluptatum aliquam
-                corrupti, suscipit accusamus! Odit unde veniam dolorum ipsum
-                doloribus.
+                I bring a strong educational background and professional
+                experience to my work as a web designer and developer.
+                Currently, I am pursuing a BCA (Bachelor of Computer
+                Applications) degree from IGNOU University, which is enhancing
+                my understanding of computer science and technology.
+                Additionally, I hold a diploma from Guru Nanak Dev Rohini Campus
+                DSEU. My passion for web development led me to gain practical
+                experience during a 1-year tenure at NebulaInfotech, where I
+                focused on web designing, refining my skills in creating
+                visually appealing and responsive web interfaces. Furthermore, I
+                completed a 3-month internship at Cybernaut, further enhancing
+                my knowledge and gaining insights into the industry's best
+                practices. My qualifications, coupled with my commitment to
+                continuous learning and exploration, enable me to create
+                innovative and user-centric web solutions.
               </p>
 
               <div
@@ -851,7 +948,11 @@ function Home() {
                 data-aos-delay="500"
                 data-aos-duration="800"
               >
-                <a>
+                <a
+                  href={require("../images/cv.pdf")}
+                  className="text-decoration-none"
+                  target="blank"
+                >
                   <span>Download CV</span>{" "}
                   <div className="icon">
                     <i className="fa-solid fa-arrow-right-long"></i>
@@ -998,7 +1099,7 @@ function Home() {
                 data-aos-delay="200"
                 data-aos-duration="1200"
               >
-                GET ME KNOW
+                LET'S GET IN TOUCH
               </h6>
               <h1
                 className="title fw-bold s-border position-relative text-light px-2"
@@ -1014,41 +1115,53 @@ function Home() {
                 data-aos-delay="500"
                 data-aos-duration="1200"
               >
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Debitis.
+                Feel free to drop me a message; I'd love to hear from you!
               </p>
             </div>
           </div>
 
           <div className="c-icon d-md-flex d-block mt-4">
-            <div className="c-icon-child"data-aos="fade-up"
-                  data-aos-delay="100"
-                  data-aos-duration="500">
+            <a
+              className="c-icon-child"
+              data-aos="fade-up"
+              href="tel:919958718364"
+              data-aos-delay="100"
+              data-aos-duration="500"
+            >
               <div className="c-img">
                 <img src={require("../images/call.png")} />
               </div>
-              <small className="fw-semibold fs-7 text-light">+91 9958718364</small>
-            </div>
-            <div className="c-icon-child"data-aos="fade-up"
-                  data-aos-delay="200"
-                  data-aos-duration="700">
+              <small className="fw-semibold fs-7 text-light">
+                +91 9958718364
+              </small>
+            </a>
+            <a
+              className="c-icon-child"
+              data-aos="fade-up"
+              href="mailto:rahulsingh995871@gmail.com"
+              data-aos-delay="200"
+              data-aos-duration="700"
+            >
               <div className="c-img">
                 <img src={require("../images/email.png")} />
               </div>
               <small className="fw-semibold fs-7 text-light">
                 rahulsingh995871@gmail.com
               </small>
-            </div>
-            <div className="c-icon-child"data-aos="fade-up"
-                  data-aos-delay="300"
-                  data-aos-duration="900">
+            </a>
+            <a
+              className="c-icon-child"
+              data-aos="fade-up"
+              data-aos-delay="300"
+              data-aos-duration="900"
+            >
               <div className="c-img">
                 <img src={require("../images/location.png")} />
               </div>
               <small className="fw-semibold fs-7 text-light">
                 E-240/12 khajoori khas near<br></br>Karawal Nagar Delhi-94
               </small>
-            </div>
+            </a>
           </div>
         </div>
       </div>
@@ -1056,11 +1169,9 @@ function Home() {
 
       {/* -------------------footer------------------ */}
       <div className="section bg-dark m-0 py-4">
-       
         <div className="container">
           <div className="row justify-content-center align-items-center text-center">
             <div className="col-md-10">
-             
               <p className="fs-7 mb-0 text-light">
                 Copyright © 2023 | Developed by{" "}
                 <a
@@ -1075,7 +1186,7 @@ function Home() {
         </div>
       </div>
 
-        {/* -------------------footer-end------------------ */}
+      {/* -------------------footer-end------------------ */}
     </>
   );
 }

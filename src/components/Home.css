@@ -12,7 +12,7 @@ body{
 
 @media only screen and (max-width: 768px) {
     .c-navbar {
-      width: 80%;
+     right: -135px!important;
     }
     .t-ul{
         --row-gap:2rem!important
@@ -211,7 +211,7 @@ body{
     position: fixed;
     right: -100px;
     top: 50%;
-    width: 310px;
+    /* width: 310px; */
     
     /* transform: translate(-50%, -50%);
     backdrop-filter: blur(25px);

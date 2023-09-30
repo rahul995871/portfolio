@@ -1119,7 +1119,7 @@ function Home() {
                 data-aos-delay="500"
                 data-aos-duration="1200"
               >
-                Feel free to drop me a message; I'd love to hear from you!
+                Feel free to drop me a message. I'd love to hear from you!
               </p>
             </div>
           </div>

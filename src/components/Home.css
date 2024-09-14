@@ -231,6 +231,9 @@ border-radius: 50%;
 transition: 0.3s;
 
 }
+.c-navbar-active{
+  background-color: var(--primary-color)!important;
+}
 .c-navbar div:hover{
     background-color: var(--primary-color);
     cursor: pointer;

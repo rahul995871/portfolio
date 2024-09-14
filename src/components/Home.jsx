@@ -93,6 +93,54 @@ function AsNavFor() {
               </div>
             </div>
 
+            
+
+            <div className="py-md-3 py-0">
+              <div className="position-relative bg-secondary ">
+                <h4 className=" fw-bold prim-color">PayBees.</h4>
+                <div className="text-grey">
+                  <span className="text-light fw-semibold fs-7">
+                    Javascript | Html | Css | Bootstrap,
+                  </span>
+                </div>
+                <div className="v-btn mt-2 mx-auto">
+                  <a
+                    target="blank"
+                    href="https://paybees.in/"
+                    className="text-decoration-none mb-0 mb-md-2"
+                  >
+                    <span>visit</span>{" "}
+                    <div className="icon">
+                      <i className="fa-solid fa-arrow-right-long"></i>
+                    </div>{" "}
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="py-md-3 py-0">
+              <div className="position-relative bg-secondary ">
+                <h4 className=" fw-bold prim-color">TheFunnyMouse.</h4>
+                <div className="text-grey">
+                  <span className="text-light fw-semibold fs-7">
+                    Javascript | Html | Css | Bootstrap,
+                  </span>
+                </div>
+                <div className="v-btn mt-2 mx-auto">
+                  <a
+                    target="blank"
+                    href="https://thefunnymouse.in/"
+                    className="text-decoration-none mb-0 mb-md-2"
+                  >
+                    <span>visit</span>{" "}
+                    <div className="icon">
+                      <i className="fa-solid fa-arrow-right-long"></i>
+                    </div>{" "}
+                  </a>
+                </div>
+              </div>
+            </div>
+
             <div className="py-md-3 py-0">
               <div className="position-relative bg-secondary ">
                 <h4 className=" fw-bold prim-color">BeatsMyTrip.</h4>
@@ -222,12 +270,28 @@ function AsNavFor() {
             centerPadding="0px"
             className="center center-img col-md-9"
           >
+
+
             <a
               target="blank"
               href="https://emergingvisionaries.com/in/"
               className="text-decoration-none"
             >
               <img src={require("../images/port_1.jpg")} />
+            </a>
+            <a
+              target="blank"
+              href="https://paybees.in/"
+              className="text-decoration-none"
+            >
+              <img src={require("../images/paybees.jpg")} />
+            </a>
+            <a
+              target="blank"
+              href="https://thefunnymouse.in/"
+              className="text-decoration-none"
+            >
+              <img src={require("../images/funnyMouse.jpg")} />
             </a>
             <a
               target="blank"
@@ -273,6 +337,9 @@ function AsNavFor() {
 }
 
 function Home() {
+
+  const[active,setActive]=useState('')
+  console.log(active)
   return (
     <>
       {/* <div className="section m-0 p-0 home-bg ">
@@ -482,7 +549,7 @@ function Home() {
                   </div>
                   <div className="c-btn mt-5 position-relative">
                     <a
-                      href={require("../images/cv.pdf")}
+                      href={require("../images/my-Up.pdf")}
                       className="text-decoration-none"
                       target="blank"
                     >
@@ -501,7 +568,7 @@ function Home() {
           <HashRouter>
           
             <HashLink to="/#contact">
-              <div>
+              <div >
                 <img src={require("../images/contact.png")} />
               </div>
             </HashLink>
@@ -511,22 +578,22 @@ function Home() {
               </div>
             </HashLink>
             <HashLink to="/#portfolio">
-              <div>
+              <div className="">
                 <img src={require("../images/port.png")} />
               </div>
             </HashLink>
             <HashLink to="/#skills">
-              <div>
+              <div className="">
                 <img src={require("../images/skills.png")} />
               </div>{" "}
             </HashLink>
             <HashLink to="/#about">
-              <div>
+              <div className="">
                 <img src={require("../images/about.png")} />
               </div>
             </HashLink>
             <HashLink to="/#">
-              <div>
+              <div >
                 <img src={require("../images/home.png")} />
               </div>{" "}
             </HashLink>
@@ -563,22 +630,11 @@ function Home() {
                 data-aos-delay="500"
                 data-aos-duration="1200"
               >
-                Hello, I'm Rahul Rautela, a dedicated web designer and developer
-                with a focus on front-end development. I'm passionate about
-                crafting engaging and user-friendly websites that leave a
-                lasting impression. With over 1 year of hands-on experience in
-                web designing at NebulaInfotech, I've honed my skills in
-                creating visually appealing and responsive web interfaces.
-                During my journey to becoming a web professional, I also
-                embarked on a 3-month internship at Cybernaut, where I had the
-                opportunity to work on exciting projects and further develop my
-                skills in web development. My work is a reflection of my
-                commitment to clean, modern design and seamless user
-                experiences. I firmly believe in the power of creativity and
-                technology to transform ideas into impactful digital solutions.
-                Thank you for visiting my portfolio website. Explore my projects
-                and skills to see how I bring my passion for web design and
-                development to life.
+                Hello, I'm Rahul Rautela, a dedicated web designer and developer specializing in front-end development. With over 2 years of experience in crafting engaging and user-friendly websites, I’m passionate about creating visually appealing and responsive web interfaces. My journey in web design has allowed me to work on diverse projects that showcase my commitment to clean, modern design and seamless user experiences.
+
+In addition to my extensive hands-on experience, I also completed a 3-month internship where I had the opportunity to work on exciting projects and further develop my skills in web development. I firmly believe in the power of creativity and technology to transform ideas into impactful digital solutions.
+
+Thank you for visiting my portfolio website. Explore my projects and skills to see how I bring my passion for web design and development to life.
               </p>
             </div>
           </div>
@@ -953,7 +1009,7 @@ function Home() {
                 data-aos-duration="800"
               >
                 <a
-                  href={require("../images/cv.pdf")}
+                  href={require("../images/my-Up.pdf")}
                   className="text-decoration-none"
                   target="blank"
                 >
@@ -1032,13 +1088,13 @@ function Home() {
                   data-aos-delay="800"
                   data-aos-duration="1200"
                 >
-                  <div className="date">IGNOU University: 2023 (Pursuing)</div>
+                  <div className="date">IGNOU University: 2024</div>
                   <div className="title text-dark">
                     Indira Gandhi National Open University
                   </div>
                   <div className="descr">
                     <small className="text-grey fw-semibold">
-                      Pursuing BCA(3rd year) from ignou.
+                    Bachelor of Computer Applications(BCA) from Indira Gandhi National Open University.
                     </small>
                   </div>
                 </li>
@@ -1071,6 +1127,7 @@ function Home() {
                     </small>
                   </div>
                 </li>
+               
                 <li
                   data-aos="fade-left"
                   data-aos-delay="700"
@@ -1081,6 +1138,21 @@ function Home() {
                   <div className="descr">
                     <small className="text-grey fw-semibold">
                       1 Year Experience in NebulaInfotech as a Web Designer
+                    </small>
+                  </div>
+                </li>
+
+                <li
+                  data-aos="fade-left"
+                  data-aos-delay="700"
+                  data-aos-duration="1200"
+                >
+                  <div className="date">SDGM Technologies Pvt Ltd: 2024</div>
+                  <div className="title text-dark">Web Designer/Front-end</div>
+                  <div className="descr">
+                    <small className="text-grey fw-semibold">
+                    9 month Experience as a web designer and also worked with app
+                    development(React Native)
                     </small>
                   </div>
                 </li>
